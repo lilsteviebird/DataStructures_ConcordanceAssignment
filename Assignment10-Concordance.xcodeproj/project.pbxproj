@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F498CC22229C094000E25B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F498CC12229C094000E25B6 /* AppDelegate.m */; };
+		3F498CC52229C094000E25B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F498CC42229C094000E25B6 /* ViewController.m */; };
+		3F498CC72229C0A1000E25B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F498CC62229C0A0000E25B6 /* Assets.xcassets */; };
+		3F498CCA2229C0A1000E25B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F498CC82229C0A1000E25B6 /* Main.storyboard */; };
+		3F498CCD2229C0A1000E25B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F498CCC2229C0A1000E25B6 /* main.m */; };
+		3F498CD82229C0A1000E25B6 /* Assignment10_ConcordanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F498CD72229C0A1000E25B6 /* Assignment10_ConcordanceTests.m */; };
+		3F498CE32229C0A1000E25B6 /* Assignment10_ConcordanceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F498CE22229C0A1000E25B6 /* Assignment10_ConcordanceUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F498CD42229C0A1000E25B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F498CB52229C094000E25B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F498CBC2229C094000E25B6;
+			remoteInfo = "Assignment10-Concordance";
+		};
+		3F498CDF2229C0A1000E25B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F498CB52229C094000E25B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F498CBC2229C094000E25B6;
+			remoteInfo = "Assignment10-Concordance";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F498CBD2229C094000E25B6 /* Assignment10-Concordance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment10-Concordance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F498CC02229C094000E25B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F498CC12229C094000E25B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F498CC32229C094000E25B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F498CC42229C094000E25B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F498CC62229C0A0000E25B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F498CC92229C0A1000E25B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F498CCB2229C0A1000E25B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F498CCC2229C0A1000E25B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F498CCE2229C0A1000E25B6 /* Assignment10_Concordance.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Assignment10_Concordance.entitlements; sourceTree = "<group>"; };
+		3F498CD32229C0A1000E25B6 /* Assignment10-ConcordanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment10-ConcordanceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F498CD72229C0A1000E25B6 /* Assignment10_ConcordanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment10_ConcordanceTests.m; sourceTree = "<group>"; };
+		3F498CD92229C0A1000E25B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F498CDE2229C0A1000E25B6 /* Assignment10-ConcordanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment10-ConcordanceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F498CE22229C0A1000E25B6 /* Assignment10_ConcordanceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment10_ConcordanceUITests.m; sourceTree = "<group>"; };
+		3F498CE42229C0A2000E25B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F498CBA2229C094000E25B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F498CD02229C0A1000E25B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F498CDB2229C0A1000E25B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F498CB42229C094000E25B6 = {
+			isa = PBXGroup;
+			children = (
+				3F498CBF2229C094000E25B6 /* Assignment10-Concordance */,
+				3F498CD62229C0A1000E25B6 /* Assignment10-ConcordanceTests */,
+				3F498CE12229C0A1000E25B6 /* Assignment10-ConcordanceUITests */,
+				3F498CBE2229C094000E25B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F498CBE2229C094000E25B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F498CBD2229C094000E25B6 /* Assignment10-Concordance.app */,
+				3F498CD32229C0A1000E25B6 /* Assignment10-ConcordanceTests.xctest */,
+				3F498CDE2229C0A1000E25B6 /* Assignment10-ConcordanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F498CBF2229C094000E25B6 /* Assignment10-Concordance */ = {
+			isa = PBXGroup;
+			children = (
+				3F498CC02229C094000E25B6 /* AppDelegate.h */,
+				3F498CC12229C094000E25B6 /* AppDelegate.m */,
+				3F498CC32229C094000E25B6 /* ViewController.h */,
+				3F498CC42229C094000E25B6 /* ViewController.m */,
+				3F498CC62229C0A0000E25B6 /* Assets.xcassets */,
+				3F498CC82229C0A1000E25B6 /* Main.storyboard */,
+				3F498CCB2229C0A1000E25B6 /* Info.plist */,
+				3F498CCC2229C0A1000E25B6 /* main.m */,
+				3F498CCE2229C0A1000E25B6 /* Assignment10_Concordance.entitlements */,
+			);
+			path = "Assignment10-Concordance";
+			sourceTree = "<group>";
+		};
+		3F498CD62229C0A1000E25B6 /* Assignment10-ConcordanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F498CD72229C0A1000E25B6 /* Assignment10_ConcordanceTests.m */,
+				3F498CD92229C0A1000E25B6 /* Info.plist */,
+			);
+			path = "Assignment10-ConcordanceTests";
+			sourceTree = "<group>";
+		};
+		3F498CE12229C0A1000E25B6 /* Assignment10-ConcordanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F498CE22229C0A1000E25B6 /* Assignment10_ConcordanceUITests.m */,
+				3F498CE42229C0A2000E25B6 /* Info.plist */,
+			);
+			path = "Assignment10-ConcordanceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F498CBC2229C094000E25B6 /* Assignment10-Concordance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F498CE72229C0A2000E25B6 /* Build configuration list for PBXNativeTarget "Assignment10-Concordance" */;
+			buildPhases = (
+				3F498CB92229C094000E25B6 /* Sources */,
+				3F498CBA2229C094000E25B6 /* Frameworks */,
+				3F498CBB2229C094000E25B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assignment10-Concordance";
+			productName = "Assignment10-Concordance";
+			productReference = 3F498CBD2229C094000E25B6 /* Assignment10-Concordance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F498CD22229C0A1000E25B6 /* Assignment10-ConcordanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F498CEA2229C0A2000E25B6 /* Build configuration list for PBXNativeTarget "Assignment10-ConcordanceTests" */;
+			buildPhases = (
+				3F498CCF2229C0A1000E25B6 /* Sources */,
+				3F498CD02229C0A1000E25B6 /* Frameworks */,
+				3F498CD12229C0A1000E25B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F498CD52229C0A1000E25B6 /* PBXTargetDependency */,
+			);
+			name = "Assignment10-ConcordanceTests";
+			productName = "Assignment10-ConcordanceTests";
+			productReference = 3F498CD32229C0A1000E25B6 /* Assignment10-ConcordanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F498CDD2229C0A1000E25B6 /* Assignment10-ConcordanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F498CED2229C0A2000E25B6 /* Build configuration list for PBXNativeTarget "Assignment10-ConcordanceUITests" */;
+			buildPhases = (
+				3F498CDA2229C0A1000E25B6 /* Sources */,
+				3F498CDB2229C0A1000E25B6 /* Frameworks */,
+				3F498CDC2229C0A1000E25B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F498CE02229C0A1000E25B6 /* PBXTargetDependency */,
+			);
+			name = "Assignment10-ConcordanceUITests";
+			productName = "Assignment10-ConcordanceUITests";
+			productReference = 3F498CDE2229C0A1000E25B6 /* Assignment10-ConcordanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F498CB52229C094000E25B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = sli19;
+				TargetAttributes = {
+					3F498CBC2229C094000E25B6 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3F498CD22229C0A1000E25B6 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3F498CBC2229C094000E25B6;
+					};
+					3F498CDD2229C0A1000E25B6 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3F498CBC2229C094000E25B6;
+					};
+				};
+			};
+			buildConfigurationList = 3F498CB82229C094000E25B6 /* Build configuration list for PBXProject "Assignment10-Concordance" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F498CB42229C094000E25B6;
+			productRefGroup = 3F498CBE2229C094000E25B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F498CBC2229C094000E25B6 /* Assignment10-Concordance */,
+				3F498CD22229C0A1000E25B6 /* Assignment10-ConcordanceTests */,
+				3F498CDD2229C0A1000E25B6 /* Assignment10-ConcordanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F498CBB2229C094000E25B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F498CC72229C0A1000E25B6 /* Assets.xcassets in Resources */,
+				3F498CCA2229C0A1000E25B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F498CD12229C0A1000E25B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F498CDC2229C0A1000E25B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F498CB92229C094000E25B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F498CC52229C094000E25B6 /* ViewController.m in Sources */,
+				3F498CCD2229C0A1000E25B6 /* main.m in Sources */,
+				3F498CC22229C094000E25B6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F498CCF2229C0A1000E25B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F498CD82229C0A1000E25B6 /* Assignment10_ConcordanceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F498CDA2229C0A1000E25B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F498CE32229C0A1000E25B6 /* Assignment10_ConcordanceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F498CD52229C0A1000E25B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F498CBC2229C094000E25B6 /* Assignment10-Concordance */;
+			targetProxy = 3F498CD42229C0A1000E25B6 /* PBXContainerItemProxy */;
+		};
+		3F498CE02229C0A1000E25B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F498CBC2229C094000E25B6 /* Assignment10-Concordance */;
+			targetProxy = 3F498CDF2229C0A1000E25B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F498CC82229C0A1000E25B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F498CC92229C0A1000E25B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F498CE52229C0A2000E25B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3F498CE62229C0A2000E25B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3F498CE82229C0A2000E25B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Assignment10-Concordance/Assignment10_Concordance.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Assignment10-Concordance/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "StevenLi.Assignment10-Concordance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F498CE92229C0A2000E25B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Assignment10-Concordance/Assignment10_Concordance.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Assignment10-Concordance/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "StevenLi.Assignment10-Concordance";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F498CEB2229C0A2000E25B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Assignment10-ConcordanceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "StevenLi.Assignment10-ConcordanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment10-Concordance.app/Contents/MacOS/Assignment10-Concordance";
+			};
+			name = Debug;
+		};
+		3F498CEC2229C0A2000E25B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Assignment10-ConcordanceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "StevenLi.Assignment10-ConcordanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment10-Concordance.app/Contents/MacOS/Assignment10-Concordance";
+			};
+			name = Release;
+		};
+		3F498CEE2229C0A2000E25B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Assignment10-ConcordanceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "StevenLi.Assignment10-ConcordanceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Assignment10-Concordance";
+			};
+			name = Debug;
+		};
+		3F498CEF2229C0A2000E25B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Assignment10-ConcordanceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "StevenLi.Assignment10-ConcordanceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Assignment10-Concordance";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F498CB82229C094000E25B6 /* Build configuration list for PBXProject "Assignment10-Concordance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F498CE52229C0A2000E25B6 /* Debug */,
+				3F498CE62229C0A2000E25B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F498CE72229C0A2000E25B6 /* Build configuration list for PBXNativeTarget "Assignment10-Concordance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F498CE82229C0A2000E25B6 /* Debug */,
+				3F498CE92229C0A2000E25B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F498CEA2229C0A2000E25B6 /* Build configuration list for PBXNativeTarget "Assignment10-ConcordanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F498CEB2229C0A2000E25B6 /* Debug */,
+				3F498CEC2229C0A2000E25B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F498CED2229C0A2000E25B6 /* Build configuration list for PBXNativeTarget "Assignment10-ConcordanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F498CEE2229C0A2000E25B6 /* Debug */,
+				3F498CEF2229C0A2000E25B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F498CB52229C094000E25B6 /* Project object */;
+}
