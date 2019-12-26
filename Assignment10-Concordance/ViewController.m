@@ -7,14 +7,31 @@
 //
 
 #import "ViewController.h"
+#import "Concordance.h"
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    // Do any additional setup after loading the view.
+//
+//    NSString *myFilePath = [[NSBundle mainBundle] pathForResource:@"sonnets" ofType:@"txt"];
+//
+//    NSString *linesFromFile = [[NSString alloc] initWithContentsOfFile: myFilePath encoding:NSUTF8StringEncoding error:nil];
+//
+//    NSArray *arrayOfLines = [linesFromFile componentsSeparatedByString:@"\n"];
+//
+//    for (int i = 0; i < [arrayOfLines count]; i++) {
+//        printf("%s \n", [[arrayOfLines objectAtIndex: i] UTF8String]);
+//    }
+//
+    Concordance *myConcordance = [[Concordance alloc] init];
+    
+    [myConcordance hashSort];
+    [myConcordance hashSearch:@"hand"];
+    
 }
+
+
 
 
 - (void)setRepresentedObject:(id)representedObject {

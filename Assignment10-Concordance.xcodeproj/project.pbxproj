@@ -14,6 +14,10 @@
 		3F498CCD2229C0A1000E25B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F498CCC2229C0A1000E25B6 /* main.m */; };
 		3F498CD82229C0A1000E25B6 /* Assignment10_ConcordanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F498CD72229C0A1000E25B6 /* Assignment10_ConcordanceTests.m */; };
 		3F498CE32229C0A1000E25B6 /* Assignment10_ConcordanceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F498CE22229C0A1000E25B6 /* Assignment10_ConcordanceUITests.m */; };
+		3F498CF12229C0E3000E25B6 /* sonnets.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F498CF02229C0E3000E25B6 /* sonnets.txt */; };
+		3F498CF32229DFB5000E25B6 /* Concordance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F498CF22229DFB5000E25B6 /* Concordance.m */; };
+		3F498CF62229DFD6000E25B6 /* NewNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F498CF52229DFD6000E25B6 /* NewNode.m */; };
+		3FA238E7224AA97B0020D5B4 /* realFourDictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3FA238E6224AA97B0020D5B4 /* realFourDictionary.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,12 @@
 		3F498CDE2229C0A1000E25B6 /* Assignment10-ConcordanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment10-ConcordanceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F498CE22229C0A1000E25B6 /* Assignment10_ConcordanceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment10_ConcordanceUITests.m; sourceTree = "<group>"; };
 		3F498CE42229C0A2000E25B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F498CF02229C0E3000E25B6 /* sonnets.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sonnets.txt; sourceTree = "<group>"; };
+		3F498CF22229DFB5000E25B6 /* Concordance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Concordance.m; sourceTree = "<group>"; };
+		3F498CF42229DFBF000E25B6 /* Concordance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Concordance.h; sourceTree = "<group>"; };
+		3F498CF52229DFD6000E25B6 /* NewNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewNode.m; sourceTree = "<group>"; };
+		3F498CF72229DFE0000E25B6 /* NewNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewNode.h; sourceTree = "<group>"; };
+		3FA238E6224AA97B0020D5B4 /* realFourDictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = realFourDictionary.txt; path = "../../../Google Drive/SENIOR YEAR/Data Structures/realFourDictionary.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +114,16 @@
 				3F498CC12229C094000E25B6 /* AppDelegate.m */,
 				3F498CC32229C094000E25B6 /* ViewController.h */,
 				3F498CC42229C094000E25B6 /* ViewController.m */,
+				3F498CF02229C0E3000E25B6 /* sonnets.txt */,
+				3FA238E6224AA97B0020D5B4 /* realFourDictionary.txt */,
 				3F498CC62229C0A0000E25B6 /* Assets.xcassets */,
 				3F498CC82229C0A1000E25B6 /* Main.storyboard */,
 				3F498CCB2229C0A1000E25B6 /* Info.plist */,
 				3F498CCC2229C0A1000E25B6 /* main.m */,
+				3F498CF22229DFB5000E25B6 /* Concordance.m */,
+				3F498CF42229DFBF000E25B6 /* Concordance.h */,
+				3F498CF52229DFD6000E25B6 /* NewNode.m */,
+				3F498CF72229DFE0000E25B6 /* NewNode.h */,
 				3F498CCE2229C0A1000E25B6 /* Assignment10_Concordance.entitlements */,
 			);
 			path = "Assignment10-Concordance";
@@ -234,7 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F498CF12229C0E3000E25B6 /* sonnets.txt in Resources */,
 				3F498CC72229C0A1000E25B6 /* Assets.xcassets in Resources */,
+				3FA238E7224AA97B0020D5B4 /* realFourDictionary.txt in Resources */,
 				3F498CCA2229C0A1000E25B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +281,8 @@
 				3F498CC52229C094000E25B6 /* ViewController.m in Sources */,
 				3F498CCD2229C0A1000E25B6 /* main.m in Sources */,
 				3F498CC22229C094000E25B6 /* AppDelegate.m in Sources */,
+				3F498CF62229DFD6000E25B6 /* NewNode.m in Sources */,
+				3F498CF32229DFB5000E25B6 /* Concordance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
